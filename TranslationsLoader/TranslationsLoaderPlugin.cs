@@ -32,7 +32,7 @@ namespace TranslationsLoader
         public void PostProcessTypeModel(TypeModel model, PluginPostProcessTypeModelEventInfo info)
         {
             Translations translations = new Translations(TranslationsFileOption.Value);
-            List<TypeInfo> types = model.Types;
+            List<TypeInfo> types = model.Types.Where(t => t.Assembly.ShortName == "Assembly-CSharp.dll").ToList();
 
             foreach(TypeInfo type in types)
             {
