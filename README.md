@@ -6,3 +6,5 @@ Using NameTrans From Old Build / Dev Build can able to rename class, method, fun
 
 ## Package
 - [NoisyCowStudios.Il2CppInspector ](https://www.nuget.org/packages/NoisyCowStudios.Il2CppInspector/) - Package Il2CppInspector 
+
+Credits - [OsOmE1](https://github.com/OsOmE1/TranslationsLoader)
